@@ -13,6 +13,7 @@
 @import 'vendor/docsearch';
 @import 'fonts';
 @import 'header';
+@import 'footer';
 @import 'survey-reminder';
 @import 'footer';
 
@@ -27,7 +28,6 @@
 @import 'blog';
 @import 'builds';
 @import 'examples';
-@import 'guides';
 @import 'highlight';
 @import 'survey';
 
@@ -37,7 +37,6 @@
 @import 'pages/brand';
 @import 'pages/community';
 @import 'pages/ember-users';
-@import 'pages/guides';
 @import 'pages/learn';
 @import 'pages/mascots';
 @import 'pages/meetup-assets';
@@ -173,7 +172,8 @@ body {
       &.level-1 {
         text-transform: uppercase;
 
-        > a {
+        > a, .level-1-text {
+          font-weight: bold;
           display: block;
           color: #443331;
           border-top: 1px solid #d5ccc8;
@@ -477,7 +477,7 @@ body.tomster_faq #content {
     background-color: #dfd7d4;
   }
 
-  #back-to-top {
+  .back-to-top {
     padding-left: 13px;
     text-align: center;
     display: none;

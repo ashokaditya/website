@@ -310,6 +310,7 @@
 - url: http://www.thoughtbot.com
   image: thoughtbot.png
   alt: thoughtbot
+  use: "We use Ember to build products that our clients and their users will love"
 - url: http://www.elastic.io
   image: elasticio.png
   alt: Elastic
@@ -1081,6 +1082,22 @@
   image: verizon-digital-media-services.png
   alt: Verizon Digital Media Services
   use: "Verizon Digital Media Services uses Ember to build our customer-facing CDN configuration portal (https://my.edgecast.com/) and other internal projects."
+- url: https://www.tourme.com/
+  image: tourme-logo.png
+  alt: Tourme
+  use: "The entire Tourme web is built with Ember.js"
+- url: https://www.a2system.net/
+  image: a2system-logo.png
+  alt: A2System
+  use: "We use Ember to build amazing web applications"
+- url: https://www.redshelf.com
+  image: redshelf.png
+  alt: RedShelf
+  use: "Redshelf uses Ember to build our web apps, textbook readers, and tools."
+- url: https://appknox.com/
+  image: appknox-logo.png
+  alt: Appknox - Mobile App Security Testing
+  use: "We use EmberJS for our security dashboard(https://secure.appknox.com/) and also for our internal sales & security dashboard"  
 
 
 # ---- PLEASE READ ----
